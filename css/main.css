@@ -48,7 +48,6 @@ hr{
 	width:94%;
 }
 .col-6{
-margin-left:-20px;
 box-sizing: border-box;
 }
 .col-6 h2{
@@ -98,6 +97,16 @@ button{
 	border-radius: 5px;
 	margin-left: 40px;
 }
+.mybtnsec{
+	font-family: Arial, Helvetica, sans-serif;
+	width:92.5%;
+	padding: 5px;
+	margin-top: 30px;
+	background-color:#F9F6F4 ;
+	color:#6C757D ;
+	border-radius: 5px;
+	border: none;
+}
 .mybtn:hover{
 background-color:#F8F9FA;
 color:grey;
@@ -105,9 +114,32 @@ color:grey;
 .col-6 .right{
 	display: grid;
 	grid-template-columns: 2fr 1fr 2fr;
-	grid-row-gap: 10px;
-	grid-column-gap: 5px;
+	grid-row-gap:15px;
 }
+.col-6 .right div{
+	border: 1px solid;
+	text-align:center;
+}
+.col-6 .right img{
+	width:33%;
+}
+.col-6 .right span{
+	float: left;
+	font-weight: bold;
+	font-size: large;
+	margin-left: 15px;
+}
+.col-6 .right .badge{
+	border:none;
+}
+.col-6 .right div:nth-child(1)::after{
+	content: "";
+	display: block;
+	
+
+	}
+
+
 
 
 
