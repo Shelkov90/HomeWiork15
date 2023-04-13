@@ -47,46 +47,46 @@ margin-top: 10px;
 hr{
 	width:94%;
 }
-.row-left{
-margin-left: -20px;
+.col-6{
+margin-left:-20px;
+box-sizing: border-box;
 }
-.row-left h2{
+.col-6 h2{
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight:100;
 	color:#3E4043;
 	margin-bottom: 30px;
 }
-.row-left ul{
+.col-6 ul{
 	list-style-type: none;
-	
 }
-.row-left img{
+.col-6 img{
 	float: left;
 	margin-right: 10px;
 }
-.row-left h5{
+.col-6 h5{
 	display: inline;
 }
-.row-left span{
+.col-6 span{
 	font-family: Arial, Helvetica, sans-serif;
 float: right;
 font-size:small;
 }
-.row-left p{
+.col-6 p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	margin-top: 2px;
 	line-height: 1.7;
 }
-.row-left li{
+.col-6 li{
 	border:1px solid lightgrey;
 	padding:10px 20px 20px 20px;
 }
-.row-left li:nth-child(2){
+.col-6 li:nth-child(2){
 	padding-bottom: 2px;
 }
-.row-left li:nth-child(3){
+.col-6 li:nth-child(3){
 	padding-bottom: 50px;
 }
 button{
@@ -101,6 +101,12 @@ button{
 .mybtn:hover{
 background-color:#F8F9FA;
 color:grey;
+}
+.col-6 .right{
+	display: grid;
+	grid-template-columns: 2fr 1fr 2fr;
+	grid-row-gap: 10px;
+	grid-column-gap: 5px;
 }
 
 
