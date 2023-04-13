@@ -40,7 +40,89 @@ margin-top: 10px;
 .col-12 h1{
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
-	font-weight:lighter;
+	font-weight:100;
 	color:#3E4043;
 	margin-top: 20px;
+}
+hr{
+	width:94%;
+}
+.row-left{
+margin-left: -20px;
+}
+.row-left h2{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:100;
+	color:#3E4043;
+	margin-bottom: 30px;
+}
+.row-left ul{
+	list-style-type: none;
+	
+}
+.row-left img{
+	float: left;
+	margin-right: 10px;
+}
+.row-left h5{
+	display: inline;
+}
+.row-left span{
+	font-family: Arial, Helvetica, sans-serif;
+float: right;
+font-size:small;
+}
+.row-left p{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-top: 2px;
+	line-height: 1.7;
+}
+.row-left li{
+	border:1px solid lightgrey;
+	padding:10px 20px 20px 20px;
+}
+.row-left li:nth-child(2){
+	padding-bottom: 2px;
+}
+.row-left li:nth-child(3){
+	padding-bottom: 50px;
+}
+button{
+	font-family: Arial, Helvetica, sans-serif;
+	width:92.5%;
+	padding: 5px;
+	background-color: #6C757D;
+	color: #F9F6F4;
+	border-radius: 5px;
+	margin-left: 40px;
+}
+.mybtn:hover{
+background-color:#F8F9FA;
+color:grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+button{
+	font-family: Arial, Helvetica, sans-serif;
+	width:88%;
+	padding: 5px;
+	background-color: #6C757D;
+	color: #F9F6F4;
+	border-radius: 5px;
+}
+button:hover{
+	cursor: pointer;
 }
