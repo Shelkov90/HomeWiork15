@@ -143,8 +143,19 @@ padding-top: 3px;
 .col-6 .right div:nth-child(4),div:nth-child(10),div:nth-child(16),div:nth-child(22){
 	margin-left: 123px;
 }
-
-
+.col-6 .right div:nth-child(1){
+	border-right: none;
+}
+.in{
+	width:20px;
+	height:20px;
+	border: 1px solid;
+	margin-left: 125px !important;
+	margin-top: -20px;
+	transform: rotate(135deg);
+	border-bottom: none !important;
+	border-left: none;
+}
 
 
 
