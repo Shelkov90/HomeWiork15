@@ -47,9 +47,6 @@ margin-top: 10px;
 hr{
 	width:94%;
 }
-.col-6{
-box-sizing: border-box;
-}
 .col-6 h2{
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
@@ -57,35 +54,35 @@ box-sizing: border-box;
 	color:#3E4043;
 	margin-bottom: 30px;
 }
-.col-6 ul{
+.col-6 .left ul{
 	list-style-type: none;
 }
-.col-6 img{
+.col-6 .left img{
 	float: left;
 	margin-right: 10px;
 }
-.col-6 h5{
+.col-6 .left h5{
 	display: inline;
 }
-.col-6 span{
+.col-6 .left span{
 	font-family: Arial, Helvetica, sans-serif;
 float: right;
 font-size:small;
 }
-.col-6 p{
+.col-6 .left p{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	margin-top: 2px;
 	line-height: 1.7;
 }
-.col-6 li{
+.col-6 .left li{
 	border:1px solid lightgrey;
 	padding:10px 20px 20px 20px;
 }
-.col-6 li:nth-child(2){
+.col-6 .left li:nth-child(2){
 	padding-bottom: 2px;
 }
-.col-6 li:nth-child(3){
+.col-6 .left li:nth-child(3){
 	padding-bottom: 50px;
 }
 button{
@@ -101,7 +98,8 @@ button{
 	font-family: Arial, Helvetica, sans-serif;
 	width:92.5%;
 	padding: 5px;
-	margin-top: 30px;
+	margin-top: 35px;
+	margin-left:-5px;
 	background-color:#F9F6F4 ;
 	color:#6C757D ;
 	border-radius: 5px;
@@ -113,54 +111,47 @@ color:grey;
 }
 .col-6 .right{
 	display: grid;
-	grid-template-columns: 2fr 1fr 2fr;
-	grid-row-gap:15px;
+	grid-template-columns:2fr 1fr 2fr;
+	grid-row-gap:13px;
 }
 .col-6 .right div{
 	border: 1px solid;
 	text-align:center;
 }
 .col-6 .right img{
-	width:33%;
-}
-.col-6 .right span{
-	float: left;
-	font-weight: bold;
-	font-size: large;
-	margin-left: 15px;
+	width:25%;
+	margin-top: -3px;
 }
 .col-6 .right .badge{
 	border:none;
+	font-weight: bold;
+	font-size: large;
 }
-.col-6 .right div:nth-child(1)::after{
-	content: "";
-	display: block;
-	
-
-	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-button{
-	font-family: Arial, Helvetica, sans-serif;
-	width:88%;
-	padding: 5px;
-	background-color: #6C757D;
-	color: #F9F6F4;
-	border-radius: 5px;
+.text{
+	width:60%;
+	font-size: 14px;
+	padding-top: 3px;
 }
-button:hover{
-	cursor: pointer;
+.date{
+font-size: 14px;
+width: 40%;
+padding-top: 3px;
 }
+.col-6 .right div:nth-child(1), div:nth-child(7),div:nth-child(13),div:nth-child(19),div:nth-child(25){
+	margin-left: 80px;
+}
+.col-6 .right div:nth-child(4),div:nth-child(10),div:nth-child(16),div:nth-child(22){
+	margin-left: 123px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
